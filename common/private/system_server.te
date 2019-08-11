@@ -9,3 +9,6 @@ allow system_server pocket_service:service_manager { add find };
 # Use HALs
 hal_client_domain(system_server, hal_lineage_livedisplay)
 hal_client_domain(system_server, hal_lineage_touch)
+
+# Long screenshot
+add_service(system_server, longshot_service)
