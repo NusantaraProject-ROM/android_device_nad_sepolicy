@@ -24,3 +24,6 @@
 # ADB Root
 /system/bin/adb_root       u:object_r:adbroot_exec:s0
 /data/adbroot(/.*)?        u:object_r:adbroot_data_file:s0
+
+# vbswap device for zswap
+/dev/block/vbswap0         u:object_r:swap_block_device:s0
