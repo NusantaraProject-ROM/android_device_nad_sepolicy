@@ -8,3 +8,6 @@ longshot                                  u:object_r:longshot_service:s0
 
 # App Lock
 applock                                   u:object_r:applock_service:s0
+
+# DC dimming
+dc_dim_service		            u:object_r:dc_dimming_service:s0
