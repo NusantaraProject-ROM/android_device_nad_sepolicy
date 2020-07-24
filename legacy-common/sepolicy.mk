@@ -5,5 +5,5 @@
 
 ifeq ($(TARGET_HAS_LEGACY_CAMERA_HAL1), true)
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/du/sepolicy/legacy-common/public/legacy-camera-hal1
+    device/nad/sepolicy/legacy-common/public/legacy-camera-hal1
 endif
