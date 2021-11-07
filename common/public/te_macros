@@ -1,6 +1,6 @@
 #####################################
 # hal_attribute_lineage(hal_name)
-define(`hal_attribute_lineage', `
+define(`hal_attribute_nad', `
 attribute hal_$1;
 expandattribute hal_$1 true;
 attribute hal_$1_client;
